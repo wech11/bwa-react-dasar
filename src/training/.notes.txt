@@ -1,0 +1,15 @@
+# NOTES
+# ═════════════════════════════════════════════════════════════════════════════════════════════════════
+
+- hot relaod tidak menangani perubahan di file : vite.config , dockerfile & compose.yaml (restart menggunakna docker compose upp)
+
+- continue hanya valid di dalam loop (for, while, do...while, for...of, dll). Di dalam forEach, continue tidak bisa dipakai; gunakan return sebagai gantinya.
+
+- Sekadar membungkus agar valid              -> <></>
+- Butuh class, style, event, atau layout     -> <div>
+- Di dalam tabel/list/flex yang sensitif     -> <></>
+- Pembungkus di .map() yang butuh key        -> <Fragment key=...>
+- Kalau ragu: mulai dengan <></>, ganti ke <div> begitu butuh styling atau atribut
+
+
+- comment yang berlaku di tsx {/* */} bukan //
