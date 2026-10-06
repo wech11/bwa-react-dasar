@@ -72,3 +72,16 @@ Komponen	        : Fungsi yang mengembalikan tampilan. Namanya selalu diawali hu
 TSX	                : Bentuk penulisan tampilan di dalam berkas TypeScript. Terlihat mirip HTML.
 .tsx	            : Akhiran berkas yang boleh memuat TSX. Berkas .ts biasa tidak bisa.
 export default	    : Menandai satu hal utama di sebuah berkas supaya bisa dipakai berkas lain.
+
+Export	            : Menandai sesuatu di sebuah berkas supaya bisa dipakai berkas lain.
+Default export	    : Satu hal utama per berkas. Diimpor tanpa kurung kurawal.
+Named export	    : Bisa banyak per berkas. Diimpor dengan kurung kurawal, nama harus sama.
+Jalur relatif	    : Jalur yang dihitung dari berkas yang sedang ditulis. Diawali titik.
+
+Ekspresi	        : Apa pun yang menghasilkan nilai. Boleh masuk ke dalam kurung kurawal.
+Pernyataan	        : Perintah seperti if dan for. Tidak menghasilkan nilai, jadi tidak boleh.
+Anak React	        : Isi sebuah elemen. Boleh teks, angka, elemen lain, atau array. Tidak boleh objek.
+
+Komponen induk	    : Komponen yang memakai komponen lain di dalamnya.
+Komponen anak	    : Komponen yang dipakai di dalam komponen lain.
+Susunan komponen	: Gambaran komponen mana berada di dalam komponen mana.
