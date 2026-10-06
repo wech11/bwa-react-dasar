@@ -111,3 +111,7 @@ Nomor urut	        : Posisi sebuah isian di dalam array. Berubah begitu ada yang
 &&	                : Menampilkan yang di kanan cuma kalau yang di kiri benar.
 Ternary	            : Bentuk syarat ? ini : itu. Memilih di antara dua kemungkinan.
 Early return	    : Keluar dari komponen lebih awal dengan tampilan yang berbeda sepenuhnya.
+
+Keadaan kosong	    : Tampilan khusus waktu sebuah daftar belum ada isinya.
+Tersaring habis	    : Daftar yang sebenarnya berisi, dan tidak ada satu pun yang cocok dengan pencariannya.
+&quot;	            : Cara menulis tanda kutip di dalam TSX tanpa tertukar dengan tanda kutip atribut.
