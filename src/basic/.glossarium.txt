@@ -97,3 +97,9 @@ Nilai bawaan props	: Nilai pengganti yang dipakai kalau propsnya tidak dikirim. 
 children	        : Props khusus berisi apa pun yang ditaruh di antara tag pembuka dan penutup.
 ReactNode	        : Tipe untuk apa pun yang bisa ditampilkan React. Diimpor dari React.
 Komposisi	        : Menyusun tampilan dengan menaruh komponen di dalam komponen lain, bukan lewat props.
+
+map	                : Method array yang mengubah tiap isian jadi sesuatu yang lain. Di React hasilnya elemen.
+key	                : Props khusus di tiap elemen daftar, dipakai React untuk mengenali elemen mana yang mana.
+Derived state	    : Nilai yang dihitung dari data lain saat render, misalnya total dan jumlah barang.
+Peringatan React	: Pesan yang tampil merah di Console seperti error, tapi halamannya tetap jalan. Yang membedakannya dari error  
+                      layarnya, bukan warnanya.
