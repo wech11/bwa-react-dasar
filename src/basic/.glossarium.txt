@@ -107,3 +107,7 @@ Peringatan React	: Pesan yang tampil merah di Console seperti error, tapi halama
 key	                : Penanda tiap elemen dalam daftar. Dipakai React untuk mengenali elemen mana yang mana.
 id	                : Penanda unik sebuah data. Nilai yang paling pantas dipakai sebagai key.
 Nomor urut	        : Posisi sebuah isian di dalam array. Berubah begitu ada yang dihapus atau disisipi.
+
+&&	                : Menampilkan yang di kanan cuma kalau yang di kiri benar.
+Ternary	            : Bentuk syarat ? ini : itu. Memilih di antara dua kemungkinan.
+Early return	    : Keluar dari komponen lebih awal dengan tampilan yang berbeda sepenuhnya.

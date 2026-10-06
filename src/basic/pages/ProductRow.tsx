@@ -1,9 +1,10 @@
 type ProductRowProps = {
-  readonly name: string
-  readonly price: number
-  readonly currency?: string
-}
-
+  readonly name: string;
+  readonly price: number;
+  readonly currency?: string;
+  readonly inOnSale?: boolean;
+  readonly isSoldOut?: boolean;
+};
 
 // function ProductRow(props) {
 //   return (
@@ -14,15 +15,26 @@ type ProductRowProps = {
 //   )
 // }
 
-function ProductRow({ name, price, currency = 'Rp.' }: ProductRowProps) {            // destructuring props
-    
+function ProductRow({
+  name,
+  price,
+  currency = "Rp.",
+  inOnSale,
+  isSoldOut,
+}: ProductRowProps) {
+  // destructuring props
+  if (isSoldOut) {
+    return <div>{name} is sold out</div>;
+  }
   return (
     <div>
       <span style={{ marginRight: 10 }}>{name}</span>
-      <span>{currency} {price.toLocaleString('id-ID')}</span>
+      <span>
+        {currency} {price.toLocaleString("id-ID")}
+      </span>
+      {inOnSale ? <span> (sale)</span> : <span> (regular)</span>}
     </div>
-  )
+  );
 }
 
-
-export default ProductRow
+export default ProductRow;
