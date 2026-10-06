@@ -9,11 +9,11 @@ function ProductList() {
         <span>3 items</span>
       </div>
 
-      <ProductRow name="Latte" price={18000} />
+      <ProductRow name="Latte" price={18000} currency="IDR." />
       <ProductRow name="Toast" price={12000} />
       <ProductRow name="Iced Tea" price={8000} />
 
-      <CartSummary />
+      <CartSummary total={38000} />
     </div>
   );
 }

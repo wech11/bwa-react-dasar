@@ -89,3 +89,7 @@ Susunan komponen	: Gambaran komponen mana berada di dalam komponen mana.
 Props	            : Data yang dikirim dari komponen induk ke komponen anak.
 Destructuring props	: Membongkar objek props langsung di parameter, ditulis { name, price }.
 Aliran satu arah	: Sifat React bahwa data cuma mengalir dari induk ke anak.
+
+Tipe props	        : Tipe yang menggambarkan data apa saja yang diterima sebuah komponen.
+ProductRowProps	    : Bentuk penamaan yang dipakai kelas ini: nama komponen ditambah Props.
+Nilai bawaan props	: Nilai pengganti yang dipakai kalau propsnya tidak dikirim. Ditulis di destructuring.

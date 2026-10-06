@@ -1,3 +1,10 @@
+type ProductRowProps = {
+  readonly name: string
+  readonly price: number
+  readonly currency?: string
+}
+
+
 // function ProductRow(props) {
 //   return (
 //     <div>
@@ -6,13 +13,13 @@
 //     </div>
 //   )
 // }
-// bukan kode aplikasi — contoh lesson konsep
-function ProductRow({ name, price } : { readonly name:  string, readonly price: number }) {
+
+function ProductRow({ name, price, currency = 'Rp.' }: ProductRowProps) {            // destructuring props
     
   return (
     <div>
       <span style={{ marginRight: 10 }}>{name}</span>
-      <span>Rp {price.toLocaleString('id-ID')}</span>
+      <span>{currency} {price.toLocaleString('id-ID')}</span>
     </div>
   )
 }

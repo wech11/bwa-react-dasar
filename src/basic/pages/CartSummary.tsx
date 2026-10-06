@@ -1,8 +1,8 @@
-function CartSummary() {
+function CartSummary({ total }: { readonly total: number }) {
   return (
     <div>
       <strong>Total</strong>
-      <strong>Rp 38.000</strong>
+      <strong>Rp {total.toLocaleString('id-ID')}</strong>
     </div>
   )
 }
