@@ -3,16 +3,18 @@ import CartSummary from "./CartSummary";
 import Card from "./Card";
 
 type Product = {
+  id: string;
   name: string;
   price: number;
 };
 
 const products: Product[] = [
-  { name: "Latte", price: 18000 },
-  { name: "Toast", price: 12000 },
-  { name: "Iced Tea", price: 8000 },
-  { name: "Sandwich", price: 25000 },
-  { name: "Cookies", price: 15000 },
+  { id: "1", name: "Latte", price: 18000 },
+  { id: "2", name: "Toast", price: 12000 },
+  { id: "3", name: "Iced Tea", price: 8000 },
+  { id: "4", name: "Sandwich", price: 25000 },
+  { id: "5", name: "Cookies", price: 15000 },
+  { id: "6", name: "Cookies", price: 20000 },
 ];
 
 function ProductList() {
@@ -21,7 +23,11 @@ function ProductList() {
     <div>
       <Card title={products.length + " Products"}>
         {products.map((product) => (
-          <ProductRow key={product.name} name={product.name} price={product.price}/>
+          <ProductRow
+            key={product.id}
+            name={product.name}
+            price={product.price}
+          />
         ))}
         <CartSummary total={total} />
       </Card>
