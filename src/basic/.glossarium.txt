@@ -85,3 +85,7 @@ Anak React	        : Isi sebuah elemen. Boleh teks, angka, elemen lain, atau arr
 Komponen induk	    : Komponen yang memakai komponen lain di dalamnya.
 Komponen anak	    : Komponen yang dipakai di dalam komponen lain.
 Susunan komponen	: Gambaran komponen mana berada di dalam komponen mana.
+
+Props	            : Data yang dikirim dari komponen induk ke komponen anak.
+Destructuring props	: Membongkar objek props langsung di parameter, ditulis { name, price }.
+Aliran satu arah	: Sifat React bahwa data cuma mengalir dari induk ke anak.

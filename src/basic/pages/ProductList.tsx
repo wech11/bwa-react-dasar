@@ -1,5 +1,5 @@
-import ProductRow from './ProductRow'
-import CartSummary from './CartSummary'
+import ProductRow from "./ProductRow";
+import CartSummary from "./CartSummary";
 
 function ProductList() {
   return (
@@ -9,13 +9,13 @@ function ProductList() {
         <span>3 items</span>
       </div>
 
-      <ProductRow />
-      <ProductRow />
-      <ProductRow />
+      <ProductRow name="Latte" price={18000} />
+      <ProductRow name="Toast" price={12000} />
+      <ProductRow name="Iced Tea" price={8000} />
 
       <CartSummary />
     </div>
-  )
+  );
 }
 
-export default ProductList
+export default ProductList;
