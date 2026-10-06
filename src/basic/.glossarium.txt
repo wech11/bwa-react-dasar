@@ -93,3 +93,7 @@ Aliran satu arah	: Sifat React bahwa data cuma mengalir dari induk ke anak.
 Tipe props	        : Tipe yang menggambarkan data apa saja yang diterima sebuah komponen.
 ProductRowProps	    : Bentuk penamaan yang dipakai kelas ini: nama komponen ditambah Props.
 Nilai bawaan props	: Nilai pengganti yang dipakai kalau propsnya tidak dikirim. Ditulis di destructuring.
+
+children	        : Props khusus berisi apa pun yang ditaruh di antara tag pembuka dan penutup.
+ReactNode	        : Tipe untuk apa pun yang bisa ditampilkan React. Diimpor dari React.
+Komposisi	        : Menyusun tampilan dengan menaruh komponen di dalam komponen lain, bukan lewat props.
